@@ -1,0 +1,17 @@
+configs/**
+!configs/*toml.example
+!configs/*.txt
+
+
+data/csv/**
+!data/csv/.gitkeep
+data/json/**
+!data/json/.gitkeep
+data/raw/**
+!data/raw/.gitkeep
+
+
+**__pycache__
+*.pyc
+help/**
+logs/**

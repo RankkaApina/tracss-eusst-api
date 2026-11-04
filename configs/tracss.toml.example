@@ -1,0 +1,22 @@
+[auth]
+client_id  = ""
+secret_key = ""
+oauth_url  = "https://tracssamu.okta-gov.com/oauth2/aus1358llxDldKxE80j7/v1/token?grant_type=client_credentials&scope=tracssusername"
+
+
+[api]
+cdm_url    = "https://api.tracss.gov/metadata/v2/tracssCdm"
+cat_url    = "https://api.tracss.gov/metadata/tracssCat"
+bulkcdm_url = "https://api.tracss.gov/bulkdata/cdm/v2/stream"
+bulkocm_url = "https://api.tracss.gov/bulkdata/ocm/v2/stream"
+cdm_max_workers = 4
+ocm_max_workers = 4
+cdm_page_size = 5000
+ocm_page_size = 50
+
+
+[paths]
+cache_file = "configs/.tracss_cache.json"
+data_json = "data/json"
+data_csv = "data/csv"
+data_raw = "data/raw"

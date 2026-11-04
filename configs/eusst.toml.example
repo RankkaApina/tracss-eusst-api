@@ -1,0 +1,18 @@
+[auth]
+username = ""
+password = ""
+client_id = ""
+client_secret = ""
+oauth_url  = "https://portalidp.eusst.eu/realms/EUSST/protocol/openid-connect/token"
+
+[url]
+cdm = "https://portalusersapi.eusst.eu/api/ca/cdm"
+event = "https://portalusersapi.eusst.eu/api/ca/event"
+report = "https://portalusersapi.eusst.eu/api/ca/report"
+
+
+[paths]
+cache_file = "configs/.eusst_token_cache.json"
+data_json = "data/json"
+data_csv = "data/csv"
+data_raw = "data/raw"
